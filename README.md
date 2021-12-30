@@ -24,8 +24,8 @@ It may be necessary to replace `gnome-terminal` and `bash` (in the files startin
 
 ## Configuration
 
-1. Clone or download the repo to some location on your computer
-2. Copy
++ Clone or download the repo to some location on your computer
++ Copy
   ```
   0000_run_crypt_all.sh
   0000_run_decrypt_all.sh
@@ -33,10 +33,10 @@ It may be necessary to replace `gnome-terminal` and `bash` (in the files startin
   /.crypt
   ```
   to the root of the directory where your folders-to-secure were located.
-3. Run `0000_run_crypt_all.sh` type in some password and check if folder `test5` is converted to an file `test5.zip.gpg`.  
-4. Run `0000_run_decrypt_all.sh` and, after being propmted the password, given in 3., see if the folder `test5` is created again, containing the testfile.
-5. Just for cleaning up you now can delete folder `test5`.
-6. Edit file 
++ Run `0000_run_crypt_all.sh` type in some password and check if folder `test5` is converted to an file `test5.zip.gpg`.  
++ Run `0000_run_decrypt_all.sh` and, after being propmted the password, given the step before., see if the folder `test5` is created again, containing the testfile.
+5 Just for cleaning up you now can delete folder `test5`.
+6 Edit file 
   ```
    .crpyt/cryptfolders.conf
   ```
