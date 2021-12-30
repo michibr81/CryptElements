@@ -4,9 +4,9 @@ These skripts were generated to enable easy folder-encryption on an Linux filesy
 
 By configuring the folders to use and running the encryption-script the user is prompted a password which will be used for symmetric gpg-encrpytion of the folders. Afterwards the readable-folders are gone and replaced by <foldername>.zip.gpg files. 
 
-These encrypted files can be made readable by unning the decryption-script which will prompt for the given password.
+These encrypted files can be made readable by running the decryption-script which will prompt for the given password.
   
-> There is no way to restore the data without the given password as there **is** the possibility to destroy your data when something is configured wrong. So be sure what you are doing, read the configuration chapter and test your setup well!
+> There is no in-build way to restore the data without the given password as there **is** the possibility to destroy your data when something is configured wrong. So be sure what you are doing, read the configuration chapter and test your setup well!
   
 
 ## Dependencies and Environment
