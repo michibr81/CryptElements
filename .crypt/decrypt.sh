@@ -5,7 +5,7 @@ read
 if [ -f $encrfilename.zip.gpg ];
 then
 	gpg -d $encrfilename.zip.gpg > $encrfilename.zip
-	unzip $encrfilename.zip -d $encrfilename
+	unzip $encrfilename.zip
 	if [ -d $encrfilename ];
 	then
 		rm $encrfilename.zip.gpg
