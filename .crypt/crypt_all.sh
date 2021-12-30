@@ -20,5 +20,5 @@ input_config_file=.crypt/cryptfolders.conf
 printf 'Crypting all folder-lines in %s' "$input_config_file"
 while IFS= read -r line; do
   printf '%s\n' "$line"
-  sh .crypt/crypt.sh $line $password1
+  bash .crypt/crypt.sh $line $password1
 done < $input_config_file
