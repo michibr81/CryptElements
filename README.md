@@ -35,8 +35,8 @@ It may be necessary to replace `gnome-terminal` and `bash` (in the files startin
   to the root of the directory where your folders-to-secure were located.
 + Run `0000_run_crypt_all.sh` type in some password and check if folder `test5` is converted to an file `test5.zip.gpg`.  
 + Run `0000_run_decrypt_all.sh` and, after being propmted the password, given the step before., see if the folder `test5` is created again, containing the testfile.
-5 Just for cleaning up you now can delete folder `test5`.
-6 Edit file 
++ Just for cleaning up you now can delete folder `test5`.
++ Edit file 
   ```
    .crpyt/cryptfolders.conf
   ```
