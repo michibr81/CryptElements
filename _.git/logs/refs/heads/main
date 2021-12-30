@@ -1,5 +1,0 @@
-0000000000000000000000000000000000000000 8a352c34e61a2f5455248013ff38df9ea919fd78 Michael <info@braintenance.net> 1640681412 +0100	clone: from git@github.com:michibr81/LinuxCommands.git
-8a352c34e61a2f5455248013ff38df9ea919fd78 088752d51df7b01a111e8d5ad05356b5961b592c Michael <info@braintenance.net> 1640681558 +0100	commit: initial commit of crypt-scripts
-088752d51df7b01a111e8d5ad05356b5961b592c 600c3c12fb4c01520453219f04892524b2dd8a89 Michael <info@braintenance.net> 1640692784 +0100	commit: full encrypting with pw-question, checks and reading folders to encrypt from config-file
-600c3c12fb4c01520453219f04892524b2dd8a89 9480f2f000dc71b98fc9ad279c2bafe8924e4dbb Michael <info@braintenance.net> 1640692804 +0100	pull: Merge made by the 'recursive' strategy.
-9480f2f000dc71b98fc9ad279c2bafe8924e4dbb 66e12772110f3d4ed73e08c75b767c37abb15b1b Michael <info@braintenance.net> 1640886449 +0100	commit: made path-safe, cleaned up and moved to own repo
