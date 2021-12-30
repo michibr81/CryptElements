@@ -1,10 +1,10 @@
 #!/bin/bash
 encrfilename=$1
+password=$2
 echo $DIR
-read
 if [ -f $encrfilename.zip.gpg ];
 then
-	gpg -d $encrfilename.zip.gpg > $encrfilename.zip
+	gpg --passphrase $password --batch -d $encrfilename.zip.gpg > $encrfilename.zip
 	unzip $encrfilename.zip
 	if [ -d $encrfilename ];
 	then
