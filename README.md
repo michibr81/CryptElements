@@ -1,2 +1,2 @@
-# CryptElements
-Script collection to encrypt and decrypt filesystem elements
+# LinuxCommands
+Useful commands and scripts for common and uncommon tasks in an linux environment
